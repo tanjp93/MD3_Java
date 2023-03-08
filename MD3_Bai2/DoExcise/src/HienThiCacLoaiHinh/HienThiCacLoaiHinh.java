@@ -10,7 +10,8 @@ public class HienThiCacLoaiHinh {
             System.out.println("0.Exit");
             System.out.println("1.Draw rectangle");
             System.out.println("2.Draw square triangle");
-            System.out.println("3.Draw isosceles  triangle");
+            System.out.println("3.Draw reverse triangle");
+            System.out.println("4.Draw isosceles  triangle");
             Scanner sc = new Scanner(System.in);
             choice = sc.nextInt();
             switch (choice) {
@@ -25,7 +26,7 @@ public class HienThiCacLoaiHinh {
                     break;
                 case 2:
                     for (int i = 0; i < 5; i++) {
-                        for (int j = 0; j <i; j++) {
+                        for (int j = 0; j < i; j++) {
                             System.out.print("*");
                         }
                         System.out.println("");
@@ -33,11 +34,26 @@ public class HienThiCacLoaiHinh {
                     break;
                 case 3:
                     for (int i = 0; i < 5; i++) {
-                        for (int j = 5; j >i; j--) {
+                        for (int j = 5; j > i; j--) {
                             System.out.print("*");
                         }
                         System.out.println("");
                     }
+                    break;
+                case 4:
+                    int i, j;
+                    for(i = 1; i <= 4; i++) {
+                        for(j = 1; j < 2 * 4; j++) {
+                            if(Math.abs(4 - j)<= (i - 1)) {
+                                System.out.printf(" * ");
+
+                            } else {
+                                System.out.printf("   ");
+                            }
+                        }
+                        System.out.println("");
+                    }
+
                     break;
                 case 0:
                     System.exit(0);
