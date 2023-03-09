@@ -45,10 +45,10 @@ public class HienThiCacLoaiHinh {
                     for(i = 1; i <= 4; i++) {
                         for(j = 1; j < 2 * 4; j++) {
                             if(Math.abs(4 - j)<= (i - 1)) {
-                                System.out.printf(" * ");
+                                System.out.printf("*");
 
                             } else {
-                                System.out.printf("   ");
+                                System.out.printf(" ");
                             }
                         }
                         System.out.println("");
