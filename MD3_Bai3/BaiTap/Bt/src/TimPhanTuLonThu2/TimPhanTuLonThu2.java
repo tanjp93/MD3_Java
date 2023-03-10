@@ -24,52 +24,49 @@ public class TimPhanTuLonThu2 {
         System.out.println("Gia tri lon 2 cua mang la : " + lonThu2);
     }
     public static int ToThu2(int[][] arr, int cols) {
-
-        int count = -1;
-        int[] maxArr = new int[arr.length * cols];
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j <arr[i].length ; j++) {
-                count++;
-                maxArr[count] = arr[i][j];
-            }
-        }
-
-       int max = Arrays.stream(maxArr).max().getAsInt();
-        int min = Arrays.stream(maxArr).min().getAsInt();
-        int result = min;
-        for (int i = 0; i < maxArr.length; i++) {
-            if (maxArr[i] < max && maxArr[i] > min){
-                result = maxArr[i];
-            }
-        }
-
+// cach cua khoa!
+//        int count = -1;
 //        int[] maxArr = new int[arr.length * cols];
+//        for (int i = 0; i < arr.length; i++) {
+//            for (int j = 0; j <arr[i].length ; j++) {
+//                count++;
+//                maxArr[count] = arr[i][j];
+//            }
+//        }
+//
+//       int max = Arrays.stream(maxArr).max().getAsInt();
+//        int min = Arrays.stream(maxArr).min().getAsInt();
+//        int result = min;
 //        for (int i = 0; i < maxArr.length; i++) {
-//            for (int j = 0; j < arr.length; j++) {
-//                for (int k = 0; k < arr[j].length; k++) {
-//                    maxArr[i] = arr[j][k];
-//                }
+//            if (maxArr[i] < max && maxArr[i] > min){
+//                result = maxArr[i];
 //            }
 //        }
 
-//        int max = arr[0][0];
+
+
+        int max = arr[0][0];
+        int min= arr[0][0];
+
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
+                if (arr[i][j] > max) {
+                    max = arr[i][j];
+                }
+                if (arr[i][j] < min) {
+                    min = arr[i][j];
+                }
+            }
+        };
 //
-//        for (int i = 0; i < arr.length; i++) {
-//            for (int j = 0; j < arr[i].length; j++) {
-//                if (arr[i][j] > max) {
-//                    max = arr[i][j];
-//                }
-//            }
-//        };
-//
-//        int lonThu2 = arr[0][0];
-//        for (int i = 0; i < arr.length; i++) {
-//            for (int j = 0; j < arr[i].length; j++) {
-//                if (arr[i][j] < max && arr[i][j] > lonThu2) {
-//                    lonThu2 = arr[i][j];
-//                }
-//            }
-//        };
+        int result = min;
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
+                if (arr[i][j] < max && arr[i][j] > result) {
+                    result = arr[i][j];
+                }
+            }
+        };
 
 
 //        int lonThu2 = arr[0][0];
