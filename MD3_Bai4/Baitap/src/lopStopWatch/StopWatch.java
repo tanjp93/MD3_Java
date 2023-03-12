@@ -1,25 +1,34 @@
 package lopStopWatch;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.Date;
+
 
 public class StopWatch {
     public static void main(String[] args) {
-        long start, end;
-        start =System.nanoTime();//Lay thoi gian !
-        for (int i=0;i<100;i++);
-        end=System.nanoTime();
-        System.out.println("Tieme Nano :"+ (end-start));
-         start=System.currentTimeMillis();
-         for (long i=0;i<100000000;i++);
-         end =System.currentTimeMillis();
-        System.out.println("Time Millis :" + (end-start));
+        ClassStopWatch sw = new ClassStopWatch();
+        int [] arr = new int[100000];
+        sw.getStart();
+        System.out.println("Thời gian bắt đầu: " + sw.getStart());
+        selectionSort(arr);
+        sw.getEnd();
+        System.out.println("Thời gian kết thúc: " + sw.getEnd());
+        System.out.println("Thời gian đã trôi qua: " + sw.getElapsedTime());
+    }
+    public static void selectionSort(int[] arr) {
+        int n = arr.length;
 
-        DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        // tạo 1 đối tượng có định dạng thời gian yyyy-MM-dd HH:mm:ss
-        Date date = new Date(); // lấy thời gian hệ thống
-        String stringDate = dateFormat.format(date);//Định dạng thời gian theo trên
-        System.out.println("Date: " + stringDate);
+        // Duyệt qua từng phần tử của mảng
+        for (int i = 0; i < n - 1; i++) {
+
+            // Tìm phần tử nhỏ nhất trong mảng chưa được sắp xếp
+            int min_idx = i;
+            for (int j = i + 1; j < n; j++)
+                if (arr[j] < arr[min_idx])
+                    min_idx = j;
+
+            // Hoán đổi phần tử nhỏ nhất và phần tử đầu tiên
+            int temp = arr[min_idx];
+            arr[min_idx] = arr[i];
+            arr[i] = temp;
+        }
     }
 }
