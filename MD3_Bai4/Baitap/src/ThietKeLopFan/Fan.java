@@ -9,8 +9,8 @@ public class Fan {
     private int speed ;
     private final boolean turnOn = true;
     private final boolean turnOff = false;
-    private boolean status ;
-    private double radius ;
+    private boolean status=turnOff ;
+    private double radius;
     private String color;
 
 
