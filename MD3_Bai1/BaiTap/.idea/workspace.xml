@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="784baaa7-150f-4557-892d-d0ad5bf27c49" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../MD3_Bai9/BaiTap.Excercise1/src/Ex1/NextDayCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MD3_Bai9/BaiTap.Excercise1/test/Ex1/TestNextDay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MD3_Bai9/BaiTap.Excercise2/src/TriangleClassifier/TriangleClassifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MD3_Bai9/BaiTap.Excercise2/test/TriangleClassifier/TriangleClassifierTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MD3_Bai9/BaiTap.Excercise3/src/fizzBuzz/CheckFizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MD3_Bai9/BaiTap.Excercise3/src/fizzBuzz/TranslateLeter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MD3_Bai9/BaiTap.Excercise3/src/fizzBuzz/TranslateNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MD3_Bai9/BaiTap.Excercise3/test/fizzBuzz/CheckFizzBuzzTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MD3_Bai9/BaiTap.Excercise3/test/fizzBuzz/TranslateLeterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MD3_Bai9/ThucHanh/src/Exercise1/Calculor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MD3_Bai9/ThucHanh/src/Exercise1/test/CalculatorTEST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MD3_Bai9/ThucHanh/src/Exercise2/test/AbsoluteNumberCalculator/AbsoluteNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MD3_Bai9/ThucHanhBai2/src/rikkei/academy/AbsoluteNumberCalculator/AbsoluteNumberCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MD3_Bai9/ThucHanhBai2/test/rikkei/academy/AbsoluteNumberCalculator/AbsoluteNumberCalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiTap.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2N7cUwgrBLkrhLfEiv4RU1MFRxe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/user/Desktop/Rikkei/MD3/game/LOST Adventurer in java",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="784baaa7-150f-4557-892d-d0ad5bf27c49" name="Changes" comment="" />
+      <created>1679018580818</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679018580818</updated>
+      <workItem from="1679018581920" duration="43000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
