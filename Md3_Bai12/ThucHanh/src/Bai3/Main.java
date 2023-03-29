@@ -11,7 +11,7 @@ public class Main {
         Student newstd2=new Student("Hung", 25, "HN");
         Student newstd3=new Student("Manh", 26, "TH");
         Student newstd4=new Student("Nam", 23, "DN");
-        Student newstd5=new Student("Anh", 22, "HCM");
+        Student newstd5=new Student("Anh", 25, "HCM");
         List<Student> listStd=new ArrayList<>();
         listStd.add(newstd1);
         listStd.add(newstd2);
