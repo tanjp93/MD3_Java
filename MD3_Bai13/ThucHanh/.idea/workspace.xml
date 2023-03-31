@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="571769da-8529-4996-a273-b2e5fcb45b7b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Bai1/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bai1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bai2/AlgorithmComplexityTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bai1/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai1/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MD3_Bai14/BaiTap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../MD3_Bai14/BaiTap/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Md3_Bai12/BaiTap" beforeDir="false" afterPath="$PROJECT_DIR$/../../Md3_Bai12/BaiTap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,10 +40,34 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/user/Desktop/Rikkei/MD3/Excercise/MD3_Bai15/BaiTap",
+    "last_opened_file_path": "C:/Users/user/Desktop/Rikkei/MD3/Excercise/MD3_Bai16/ThucHanh",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bai1.Main" />
+      <module name="ThucHanh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Bai1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -48,10 +78,23 @@
       <updated>1680055667308</updated>
       <workItem from="1680055668486" duration="12000" />
       <workItem from="1680140326721" duration="264000" />
+      <workItem from="1680157198443" duration="3282000" />
+      <workItem from="1680162971266" duration="65000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Bai1/BinarySearch.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

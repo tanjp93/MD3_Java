@@ -5,16 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5941daae-2830-4e7a-af95-86ea0bf30077" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ThucHanh/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ThucHanh/src/Bai1/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ThucHanh/src/Bai2/BubbleSortByStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ThucHanh/src/Bai3/selectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ThucHanh/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ThucHanh/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ThucHanh/src/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Md3_Bai12/BaiTap" beforeDir="false" afterPath="$PROJECT_DIR$/../../Md3_Bai12/BaiTap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,11 +36,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/user/Desktop/Rikkei/MD3/Excercise/MD3_Bai14/BaiTap",
+    "last_opened_file_path": "C:/Users/user/Desktop/Rikkei/MD3/Excercise/MD3_Bai13/ThucHanh",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -97,7 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1680055699653</updated>
       <workItem from="1680055700788" duration="12000" />
-      <workItem from="1680148863814" duration="5865000" />
+      <workItem from="1680148863814" duration="5922000" />
     </task>
     <servers />
   </component>
