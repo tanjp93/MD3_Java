@@ -12,7 +12,7 @@ public class Main {
         List<String> importList=callFile(infoPath);
         List<Country> list=new ArrayList<>();
         for (int i = 0; i < importList.size(); i++) {
-            String []tempArrs=importList.get(i).split(",");
+            String []tempArrs=importList.get(i).replaceAll("\"","").split(",");
             int countryId=Integer.parseInt(tempArrs[0]);
             String countryCode=tempArrs[1];
             String countryName=tempArrs[2];
